@@ -1,0 +1,185 @@
+<style>
+body {
+	background-color: black;
+}
+
+footer a {
+	color: #D1D1D1;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: #00FF00;
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: PetMe64;
+	src: url(PetMe64.ttf);
+}
+
+@keyframes switchEmote {
+  0%   { content: "=]"; }
+  50%  { content: "XD"; }
+  100% { content: "=]"; }
+}
+
+.emote::after {
+  content: "=]";
+  animation: switchEmote 1s infinite steps(1);
+}
+
+h1 {
+	font-family: PetMe64;
+	text-align: center;
+	color: #D1D1D1;
+	font-size: 60px;
+	word-wrap: break-word;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+h1:hover {
+	color: #00FF00;
+}
+
+h2 {
+	font-family: PetMe64;
+	text-align: center;
+	color: #D1D1D1;
+	font-size: 40px;
+	word-wrap: break-word;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+h3 {
+	font-family: PetMe64;
+	text-align: center;
+	color: #D1D1D1;
+	font-size: 25px;
+	word-wrap: break-word;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #D1D1D1;
+	text-decoration: none;
+}
+
+b {
+  font-weight: bold;
+  color: #D1D1D1;
+	  text-shadow:
+    0 0 10px #D1D1D1,
+    0 0 21px #D1D1D1,
+    0 0 42px #D1D1D1;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.banner {
+	color: #D1D1D1;
+	font-family: PetMe64, monospace;
+	font-size: 20px;
+	text-align: center;
+	width: fit-content;
+	max-width: 100%;
+	margin: 30px auto;
+	padding: 0;
+	white-space: pre;
+	line-height: 1.5;
+}
+
+.banner a {
+	color: #D1D1D1;
+	text-decoration: underline;
+}
+
+.banner a:hover {
+	color: #00FF00;
+	text-decoration: none;
+}
+
+
+.chapter {
+	border: 2px solid #D1D1D1;
+	padding: 20px;
+	margin: 40px auto;
+	width: 80%;
+	max-width: 900px;
+	color: #D1D1D1;
+	font-family: PetMe64, monospace;
+	box-shadow: 0 0 20px rgba(209, 209, 209, 0.2);
+}
+
+.chapter h2 {
+	font-size: 45px;
+	margin-bottom: 10px;
+}
+
+.chapter p {
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+</style>
+<html>
+<head>
+	<title>PWNophrenia</title>
+</head>
+
+<body>
+	<a href="index.html">
+		<img src="tux.gif"> 
+		<h1>PWNOPHRENIA</h1>
+	</a>
+
+<pre class="banner">
+╔══════════════════════════════════════════════════════════════════════════╗
+║                              00. <a href="#00">Welcome</a>                                 ║
+║                              01. <a href="#01">Prerequests</a>                             ║
+║                              02. <a href="#02">Boring Rules</a>                            ║
+║                              03. <a href="#03">Let's Go</a>                                ║
+╚══════════════════════════════════════════════════════════════════════════╝
+</pre>
+
+<div class="chapter" id="00">
+	<h2>Welcome</h2>
+  <p>Welcome, fellow hackers! I hope you’re all doing well because this course is designed to challenge you a bit <span class="emote"></span><br>Honestly, I aimed to make it as straightforward as possible, but let’s face it, low-level stuff can be tough, so get ready for that! Before we dive in, please make sure you have all the prerequisites.<br><br>This course is dedicated ONLY to vulnerabilities, nothing else.</p>
+</div>
+<div class="chapter" id="01">
+	<h2>Prerequests</h2>
+	<p> Before starting, I hope you know:
+	<ul>
+		<li>Basic C Programing</li>
+		<li>Basic Assembly Language (Any one)</li>
+		<li>x86-64 CPU</li>
+		<li>Willness, patience, and guts</li>
+	</ul>
+	</p>
+</div>
+<div class="chapter" id="02">
+	<h2>Boring Rules</h2>
+	<p> There is also some boring, but IMPORTANT rules.I hope you will follow them, if you really want to learn something and challenge yourself.</p>
+	<ol>
+		<li>Don't use LLM (AI)</li>
+		<li>Don't rush</li>
+		<li>Don't be shy to ask help from HUMANS</li>
+		<li>GOOGLE THINGS THAT YOU DON'T UNDERSTAND</li>
+	</ol>
+</div>
+<div class="chapter" id="03">
+	<h2>Let's Go</h2>
+  <p>This course is set up for self-learning right from the start. I’ll provide you with some initial materials to help you get going — short articles with references and virtual machines that are all set for practice. Make sure to read everything and complete the tasks in the articles before moving on to the main challenges.<br><br>I want to give a <b>HUGE</b> thanks to my mates. Smartest person in the internet  Fly Dragon Fly, the coolest tech mobster Don Reverso, blue team guru Bauk4, and the person with the best taste ever, Sava. Without these folks, you wouldn't be seeing this right now!<br><br>Ready. Steady. <b>BANG</b></p>
+</div>
+</body>
+<footer>
+	<h3><a href="index.html">Prev</a> &nbsp; &nbsp; <a href="memory_corruptions.html">Next</a></h3>
+</footer>
